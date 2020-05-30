@@ -2,6 +2,13 @@ import os
 import requests
 
 
+'''
+    A controller that sets up an environment that let's you control the philips hue bridge
+    from home:
+        Link official to API: 
+            https://developers.meethue.com/develop/get-started-2/?fbclid=IwAR3dWTw1018ackcRonGMkk93qp35_fILWtBNltzM-wABqSABm8hBDyYguek
+'''
+
 
 '''
     PARAMS:
@@ -70,7 +77,7 @@ def start():
     # lighting system
     authenticated_api_url = generateAuthenticatedAPIURL(ip_address, key)
 
-    
+
     
 
 if __name__ == "__main__":
