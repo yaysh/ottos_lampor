@@ -1,0 +1,1 @@
+/Users/madswed/anaconda3/envs/ottos/lib/python3.6/site-packages/ottos_lampor-1.0-py3.6.egg
